@@ -16,7 +16,8 @@ public class QueuePalindrome {
             queue.addLast(c);
         }
         while (queue.size() > 1) { 
-            // para cuando quede 0 - 1 carácter. Si queda 1, 
+            // para cuando quede 0 - 1 carácter. 
+            // Si queda 1, 
             // es el carácter del medio entonces no se compara con ninguno.
             char first = queue.removeFirst(); // saca del frente
             char last = queue.removeLast(); // saca del final
